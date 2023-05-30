@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "IG Redirect",
+    "version": "1.0",
+    "description": "Redirects Instagram links to picuki.com",
+    "icons": {
+      "48": "icons/redirect-64.png"
+    },
+    "background": {
+      "scripts": [
+        "IGredirect.js"
+      ],
+      "persistent": false
+    },
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
+    ]
+  }
+  
